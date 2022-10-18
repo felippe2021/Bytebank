@@ -23,3 +23,7 @@ Console.WriteLine("Nº Agência = " + conta.numero_agencia);
 ContaCorrente conta2 = new ContaCorrente();
 conta2.SetSaldo (-10);
 Console.WriteLine(conta2.GetSaldo());
+
+ContaCorrente conta3 = new ContaCorrente();
+conta3.SetSaldo(200);
+Console.WriteLine(conta3.GetSaldo());
